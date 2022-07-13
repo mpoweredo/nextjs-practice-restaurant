@@ -15,7 +15,7 @@ export default function Home({ mostOrdered }) {
 			<div className='px-20 w-full flex items-center justify-center flex-col gap-4'>
 				<h1 className='mb-1 text-3xl font-semibold'>The most ordered meals in our store!</h1>
 				<MenuList items={mostOrdered} />
-				<Button className='bg-indigo-400 hover:bg-indigo-500 text-md' width={44}>
+				<Button className='bg-indigo-400 hover:bg-indigo-500 text-md w-40'>
 					<Link href='/menu'>Check all meals</Link>
 				</Button>
 			</div>

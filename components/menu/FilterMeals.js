@@ -20,7 +20,7 @@ const FilterMeals = ({ filterByCategory }) => {
 					</div>
 					<div className='flex justify-center align-center gap-5'>
 						<select
-							className='w-40 px-2 bg-indigo-500 cursor-pointer text-white font-semibold text-md outline-none'
+							className='w-2/3 px-2 bg-indigo-500 cursor-pointer text-white font-semibold text-md outline-none'
 							name='category'
 							defaultValue='fastfood'
 							id='category'
@@ -30,7 +30,7 @@ const FilterMeals = ({ filterByCategory }) => {
 							<option className='hover:bg-indigo-600' value='dinner'>Dinner</option>
 							<option className='hover:bg-indigo-600' value='drinks'>Drinks</option>
 						</select>
-						<Button className='bg-indigo-500 hover:bg-indigo-600 '>Search</Button>
+						<Button className='bg-indigo-500 hover:bg-indigo-600 w-1/3'>Search</Button>
 					</div>
 				</div>
 			</form>

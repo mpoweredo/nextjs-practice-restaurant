@@ -24,7 +24,7 @@ const MenuItem = ({ title, description, image, price, id }) => {
 				<h4 className='text-sm md:text-md xl:text-xl font-medium mt-5'>
 					{description}
 				</h4>
-				<Button className='bg-orange-500 hover:bg-orange-600'>
+				<Button className='bg-orange-500 hover:bg-orange-600 w-28'>
 					<Link href={`/menu/${id}`}>Details</Link>
 				</Button>
 			</div>

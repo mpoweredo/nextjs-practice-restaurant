@@ -26,7 +26,7 @@ const MealDetailPage = ({ meal }) => {
 				<p className='text-xl font-regular'>{meal.description}</p>
 				<span className='font-semibold text-2xl'>${meal.price}</span>
 				<div>
-					<Button className='bg-orange-500 hover:bg-orange-600'>
+					<Button className='bg-orange-500 hover:bg-orange-600 w-28'>
 						Order Now
 					</Button>
 				</div>
