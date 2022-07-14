@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ErrorBoundary from '../components/errourBoundary/ErrorBoundary';
 import MainNavigation from '../components/layout/MainNavigation';
 import '../styles/globals.css';
 
@@ -9,7 +10,9 @@ function MyApp({ Component, pageProps }) {
 				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
 			</Head>
 			<MainNavigation />
-			<Component {...pageProps} />
+			<ErrorBoundary>
+				<Component {...pageProps} />
+			</ErrorBoundary>
 		</>
 	);
 }
