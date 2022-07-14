@@ -3,6 +3,7 @@ import Head from 'next/head'
 import MenuList from '../components/menu/MenuList';
 import Button from '../components/UI/Button';
 import { fetchMenu } from '../helpers/fetchMenu';
+import React from 'react';
 
 export default function Home({ mostOrdered }) {
 
