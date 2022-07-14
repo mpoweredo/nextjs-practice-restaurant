@@ -1,8 +1,8 @@
-import { FIREBASEURL } from '../firebaseURL';
+import { FIREBASEURL, FIREBASEURLSLUG } from '../firebaseURL';
 
 export const fetchMealByCategory = async category => {
 	try {
-		const response = await fetch(`${FIREBASEURL}/Menu.json`);
+		const response = await fetch(`${FIREBASEURLSLUG}/Menu.json`);
 
 		const data = await response.json();
 		const loadedMenu = [];
